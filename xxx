@@ -1,0 +1,166 @@
+PGA2311P	3		DIP	Z1A		DAC	VGA,opamp,dual		Dual Volume CTRL
+MCP23008	10		DIP	Z1B		INTER	8bit,2ic,io_expander	8bit i2c IO expander
+MCP23S08	4		DIP	Z1B		INTER	8bit,i2c,io_expander	8bit SPI IO expander
+MCP23018	4		DIP	Z1B		INTER	16bit,i2c,io_expander	16bit i2c IO expander
+at328		2		DIP	Z1C		UC	Atmega328,arduino 	Atmega328 uC with arduino optiboot
+4096		9		DIP	Z3C		LOGIC	5v,cmos,inverter	Inverter
+L6227N		3		DIP	Z4C		POWER 	PWM,H-bridge,12V,dual	Dual H-bridge with PWM
+L298N		4		Z-TIP	Z4C		POWER	H-bridge,dual		Dual H-bridge w/ buffer
+SI9986DY	5		SOIC	Z4C		POWER	H-bridge,CMOS		single CMOS hbridge
+TA7291		5		SIP	Z4C		POWER	H-bridge,CMOS,SINGLE	single BJT hbridge
+PCA9306D	10		SOIC	Z1D		INTER	i2c,translator		i2c bus level converter
+MAX3390		5		SOIC	Z1D		INTER	translator		General purpose level translator
+TXB0104DR	5		SOIC	Z1D		INTER	translator,bidirectional	GP, bidr, level translator
+ACS711		4		SOIC	Z2D		LINEAR	12A,current_sensor	12A, power sense w/ integrated resistor
+MAX4378		3		SOIC	Z2D		LINEAR	current_sensor,opamp,differencial	Current sense diff amplifier
+754410		9		DIP	Y1A		POWER	h-bridge,quad		Quad half-h bridge
+L293		4		DIP	Y2B		POWER	h-bridge,quad,current_sensor	QUad half-h bridge w/ sense
+TLC5628		4		DIP	Y1C		DAC	DAC,SPI,8channel	8 Channel serial DAC		(Maybe SPI?)
+TLC5620		5		DIP	Y1C		DAC	DAC,SPI,quad	4-channel serial DAC, indp ref	(Maybe SPI?)
+LM92		3		SOIC	Y1D		SENSOR	thermometer,digital	Digital thermometer
+TLC541		4		DIP	Y2A		ADC	ADC,11channel,serial	ADC 8bit, 11input, serial, +/-ref
+ADC0838		9		DIP	Y2A		ADC	ADC,8bit,8channel,serial	ADC 8bit, 8input, serial, Sync-ouptut
+ADC0820		5		DIP	Y1B		ADC	ADC,8bit,parallel,single	ADC 8bit, 1input, parallel
+MJE350		11		220	Y1C		PNP	BJT,PNP,POWER			PNP 0.5A 300V transistor
+TIP47		10		220	Y1C		NPN	BJT,NPN,POWER			NPN 1.0A 259V transistor
+XXXX		8		TH	Y2C		DESC	Assorted,transformers
+CD40109		4		DIP	Y3C		INTER	translator,high_voltage		high-voltage level translator
+AS7C256		9		DIP	Y1D		UC	RAM,32k			32k RAM
+MC14099		6		DIP	X1A		LOGIC	8bit,latch,addressable		8bit Adressable latch
+74HC4051	8		DIP	X2A		LINEAR	8bit,multiplexer,analog_switch	8-bit analog multiplexor/ analog sdwitch
+ADG441B		7		DIP	X2A		LINEAR	analog_switch,SPST,quad		4x SPST analog switch
+DG444DJ		5		DIP	X2A		LINEAR	analog_switch,SPST 		SPST analog switch
+24LC256		15		DIP	X3A		UC	RAM,EEPROM			32Kbyte Serial EEprom
+567		10		DIP	X4A		LINEAR	PLL				TOne Decoder / PLL
+CD74hc4046	5		DIP	X4A		LINEAR	PLL,VCO				PLL w/ VCO
+CD74HC297	4		DIP	X4A		LINEAR	PLL				PLL
+AD633		3		DIP	X1B		LINEAR	multiplier,differencial		differencial Multiplier
+MC1496		5		DIP	X1B		LINEAR	multiplier,modulator		multiplier/modulator/demodulator
+AD736		2		DIP	X1B		LINEAR	power_converter,RMS		RMS to DC converter
+XXXX		?		DIP	X2B		X	X				SOIC -> DIP adapters
+S212S01		6		SIP	X3B		POWER	SSR,12A		Solid state AC relay 12A
+S108T01		8		SIP	X3B		POWER	SSR,8A		Solid state AC relay 8A
+S216S01		7		SIP	X3B		POWER 	SSR,16A		SOlid state AC relay 16A
+CPC1972G	20		DIP	X3B		POWER 	SSR,250MA,ZC	Solid state AC relay 250MA w/ ZC
+MAX232		4		DIP	X4B		INTER	translator,RS232,QUAD		RS232 level to TTL level converter
+7032SLC44	4		PLCC	X1C		UC	CPLD				Altera CPLD
+XXXX		10		TH	X2C		DIODE	bridge_rectifiers		Assorted FUll bridge rectifier
+XXXX		?		TH	X3C		DESC	capacitor,high_voltage		Assorted AC / High VOltage caps
+XXXX		?		TH	X4C		CONN	connectors,block,8pin		Block connectors
+XXXX		?		TH	X1D		CONN	connectors,eurostyle		Eurostyle block connectors
+LM339		10		DIP	X2D		OPAMP	comparator,quad			Quad voltage comparator
+MC14094		4		DIP	X3D		LOGIC	shift_register,8bit		8 bit shift register
+MCP42010	8		DIP	X4D		DAC	digipot,SPI,dual			2ch digi potentiometer, SPI
+SS49E		6		T92	Z2C		SENSOR	hall_effect,linear	Linear Hall effecto sensor
+XXXX		100		TH	W1A		DESC	20ohm				20 ohm, 0.25W resistors
+XXXX		100		TH	W1A		DESC	75ohm			75 ohm, 0.25W resistors
+IN5266B		4		TH	W2A		DIODE	zener,3.3v			3.3V zener
+INS5242B	1		TH	W3A		DIODE	zener,12v			12v zener
+INS5241B	4		TH	W3A		DIODE	zener,11v			11v zener
+XXXX		4		TH	W4A		DIODE	zener				assorted zener DIODES
+SX28		5		DIP	W1B		UC	microcontroller,sx28,50mhz	ubicom / parallax uC 50mhz
+P8X32A		2		DIP	W1B		UC	microcontroller,propeller,8core,32bit	parallax 8-core 32bit uC
+6BTPIC273	14		DIP	W2B		POWER	latch,digital			High output 273-ish latch
+75174		5		DIP	W3B		INTER	differencial,driver	Quad differencial driver
+75175		5		DIP	W3B		INTER	differencial,reciever	Quad Differencial reciever
+LM13700		4		DIP	W4B		OPAMP	opamp,specialty,transconductance	Transconductance opamp
+74HC74		4		DIP	W1C		LOGIC	flipflop,quad,JK		Quad JK flip flop
+LM324		2		DIP	W2C		OPAMP	quad,opamp,single_supply	Quad single-supply opamp
+OP177		3		DIP	W2C		OPAMP	opamp,precision			precision opamp
+OP270		1		DIP	W2c		OPAMP	opamp,precision			Precision opamp
+OP07		8		DIP	W2C		OPAMP	opamp,precision			Precision opamp		
+OPA604		4		DIP	W2C		OPAMP	opamp,fast			Fast opamp
+MC14504		3		DIP	W3C		INTER	translator
+73LS257		3		DIP	W4C		LOGIC	multiplexor,quad,digital	Quad 2-1 multiplexor
+MCP3208		4		DIP	W1D		ADC	8channel,SPI,12bit,ADC		8ch SPI 12bit ADC
+AD976		2		DIP	W1D		ADC	preicsion,16bit,ADC		Prec 16bit ADC
+AS1538		4		TSSOP	W1D		ADC	ADC,12bit,8channel			12bit 8ch ADC
+74HC14		7		DIP	W2D		LOGIC	schmitt_trigger,hex	hex Schmitt trigger
+LM393		20		DIP	W3D		OPAMP	comparator	
+AD8561		4		DIP	W3D		OPAMP	comparator,fast
+TPIC2701	6		DIP	W4D		POWER	buffer,digital,power
+7486		11		DIP	V1A		LOGIC	quad,XOR
+mc14040		11		DIP	V2A		LOGIC	counter,12bit		12 bit counter
+74HC138		14		DIP	V3A		LOGIC	decoder,multiplexor,8bit	3:8 decoder
+74HC139		12		DIP	V4A		LOGIC	decoder,multiplexor,dual,4bit	Dual 2:4 decoder
+556		5		DIp	V5A		OSC	dual,555			Dual 555
+555		5		DIP	V5A		OSC	555				555 timer!!!
+566		2		DIP	V5A		OSC	vco
+XR2209		4		DIP	V5A		OSC	VCO,square,triangle		function generator
+LTC1062		2		DIP	V5A		LINEAR	filter,low_pass			Low pass filter
+MC14585		10		DIP	V1B		LOGIC	comparator,digital,4bit		4-bit magnitude comparator
+OP275		7		DIP	V2B		OPAMP	opamp,audio			Audio opamp
+TLC074		3		Dip	V2B		OPAMP	opamp,quad,single_supply
+MC14512		6		DIP	V3B		LOGIC	selector,demultiplexor,8bit	Multiplexor
+XXXX		*		DIP	V4B		OSC	crystal_module,16mhz,19.66mhz,4.096mhz	TTL oscilators 16.00,19.66, 4.096mhz
+ULN2003		3		DIP	V5B		POWER	driver,power		Darlington Power array
+MC3479		2		DIP	V5B		POWER	driver,stepper_motor		Stepper motor driver (logic+power)
+74175		6		DIP	V1C		LOGIC	flipflop,quad		Quad flip flop
+74541		30		DIP	V2C		LOGIC	buffer,8bit		Buffer
+7408		8		DIp	V3C		LOGIC	gate,AND,quad		Quad AND gate
+74573		15		DIP	V3C		LOGIC	latch,8bit		Octal latch
+moc3010		3		DIP	V5C		INTER	opto_isolator		Opto-isolators
+MOC119		4		DIP	V5C		INTER	opto_isolator		Opto-isolators
+4N29		6		DIP	V5C		INTER	opto_isolator		Opto-isolators
+DAC0830		2		DIp	V1D		DAC	DAC,8bit,quad,parallel	DAC quad output 8 bit parallel
+TLC7226		2		DIP	V1D		DAC	DAC,quad,8bit,parallel	DAC quad 8 bit parallel
+AD558		1		DIP	V1D		DAC	DAC,quad,8bit,single	DAC 8 bit 1 channel
+MC1407		1		DIP	V1D		XXX	--
+74HC245		7		DIP	V2D		LOGIC	buffer,bidirectional,8bit	8x Bidiractional buffer
+7407		8		DIP	V3D		LOGIC	buffer,6bit			6x unidir buffer
+74HC564		6		DIp	V4D		LOGIC	8x,latch,inverting		8x inverting latch
+7474		10		DIP	V1E		LOGIC	flipflop,dual			dual flip flop
+74ls299		4		DIP	V2E		LOGIC	shift_register,latch,8bit	8 bit shift register
+7416		3		DIP	V2E		LOGIC	gate,inverter,6bit			hex inverter (wird?)
+7432		6		Dip	V3E		LOGIC 	OR,gate,hex			hex 2-input OR gate
+74574		10		DIP	V4E		LOGIC	latch,8bit
+CY7C421		5		DIp	V5E		UC	FIFO,9bit,parallel		9bit parallel FIFO
+LM78S40		3		DIP	V1F		REG	regulator,controller,switching	Switching power regulator
+LT1026		2		DIP	V1F		REG	voltage_doubler,voltage_inverter	Power double/negative supply/inverter
+7404		10		DIP	V2F		LOGIC	inverter,hex,gate
+7402		8		DIP	V3F		LOGIC	hex,NOR,gate
+74ls688		2		DIP	V4F		LOGIC	comparator,digital,8bit		8-bit comparator
+74hc7014	4		DIP	V4F		LOGIC	schmitt_trigger			x
+mc14043		3		DIP	V5F		LOGIC	flipflop,quad,RS		Quad R/S flop-flop
+XXX		20		TH	U1A		DIODE	diode,signal	Small signal diodes
+assortedfets	X		220	U2A		MOSFET	mosfet	mosfets
+CA3083		3		DIP	U3A		LINEAR	npn,array		Transistor array
+74hc191		5		DIP	U4A		LOGIC	counter,updown		up/down counter
+XXX		1		???	U5A		SENSOR	opto_sensor		opto-sensor
+xxx		?		TH	U1B		DIODE	diode,power	High current diodes
+IRFS3031	10		220	U2B		MOSFET	MOSFET,power	-
+IRF610		8		220	U2B		MOSFET	MOSFET,power	-
+---		-		--	U3B		---	---	empty
+MC14553		10		DIP	U4B		LOGIC	counter,bcd,updown	BCD up/down counter
+80C188		1		PLCC	U5B		UC	CPU,intel		80188 UC
+CY62256		3		DIP	U5B		UC	RAM			RAM
+MAX690		2		DIP	U5B		LOGIC	reset_controller	UC managment chip
+---		-		---	U1C		---	---	empty
+TIP41		X		220	U2C		NPN	NPN,BJT,power		Power NPN transistor
+TIP42		X		220	U2C		PNP	PNP,BJT,power		Power PNP transoistor
+74ahc595	X		DIP	U3C		LOGIC	shift_register,latch,8bit	Shift register
+----		-		---	U4C		---	---	empty
+CD4067		4		DIP	U5C		LOGIC	multiplexor,16bit	16:1 multiplexor
+MPN3404		2		TO92	U1D		DIODE	tunnel_diode		Tunnel DIODE
+2n3906		25		TO92	U2D		PNP	BJT,PNP,SIGNAL		GP PNP transistor
+LM334		4		TO92	U3D		LINEAR	current_source		Constant current source
+---		-		---	U4D		----	----	empty
+screws!		-		---	U5D		---	---	EMPTY
+S8055R		4		220	U1E		DESC	SCR,800A		SCR/TRIAC 800A
+XXXX		3		220	U1E		DESC	SCR				Assorted SCRs
+2n222		25		TO92	U2E		NPN	BJT,NPN,signal			GP NPN transistor
+ADXL311		4		CLCC	U3E		SENSOR	accelorometer,2axis		2-axis accelorometer
+XXXX		6		TH	U3E		SENSOR	thermister,1k			Thermometer
+XXXX		10		TH	U3E		DESC	crystals			Oscilators
+XXXX		XX		DIP	U4E		XXXX	huhwhat?			Crazy ol' chipses!
+XXXX		40		TH	U5E		SENSORS	buttons				BUttons!
+LD1086V33	5		220	U1F		REG	regulator,3.3volt		3.3 volt regulator
+7805		X		220	U1F		REG	regulator,5v			5 volt regulator
+XXXX		X		220	U1F		REG	Assorted,regulators		regulator
+2n7000		5		TO92	U2F		MOSFET	mosfet,signal,nchannel		GP n-channel MOSFTET
+PN4392		5		TO92	U2F		MOSFET	mosfet,signal,nchannel		GP n-channel
+J176		10		TO92	U2F		MOSFET	mosfet,signal,pchannel		GP p-channel
+2n3819		1		TO92	U3F		JFET	jfet	-
+J111		10		TO92	U3F		JFET 	jfet	-
+
+
